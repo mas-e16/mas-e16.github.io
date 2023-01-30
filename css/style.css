@@ -1,0 +1,159 @@
+* html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #171717;
+    color: #fff;
+    font-family: 'poppins';
+    /* min-height: 2000px; */
+}
+/* navbar */
+
+nav .navbar-nav > li > a {
+    font-weight:200px ;
+    color: #fff;
+    
+}
+
+nav {
+    border-bottom: 1px solid #333;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+/* section page1 */
+
+.page1 .container {
+    margin-top: 5rem;
+}
+
+.page1 img {
+    position: relative;
+
+}
+
+.page1 img::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(1,1,3,1) 3%, 
+    rgba(255,255,255, 0) 25%);
+}
+
+.page1 h2 {
+    color: aqua;
+}
+
+.page1 p {
+    margin-top: 0.5rem;
+    font-weight: 100;
+
+}
+
+.page1 .cta1 {
+
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: #171717;
+    background-color: #fff;
+}
+.page1 .cta2 {
+    padding: 12px 35px;
+    text-decoration: none;
+    border: white 1px solid;
+    border-radius: 0.5rem;
+    color: #fff;
+
+}
+
+.page1 .btn {
+    margin-top: 20px;
+}
+
+/* end section page1 */
+
+/* section about me */
+.about h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 3rem 7% 1.4rem;
+    font-size: 2rem;
+}
+
+.about p {
+    text-align: center;
+}
+/* end section about me */
+
+/* section design */
+.design h2 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    padding: 5rem 7% 1.4rem;
+    font-size: 2rem;
+}
+
+.container2 .col {
+    max-width: 800px;
+    margin: 5px auto;
+}
+
+.design .figure-caption {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.design img {
+    margin-top: 1rem;
+    width: 266px;
+    height: 187px;
+    margin: 20px;
+    
+}
+
+/* end section design */
+
+/* capture */
+
+.capture h2 {
+    text-align: center;
+    color:aqua;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* button" contact.html */
+
+.contact .container img {
+    margin-top: 5rem;
+}
+
+.btn-contact .btn {
+    width: 350px ;
+    border: white 1px solid;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+
+/* responsive */
+
+@media(min-width: 600px) {
+    .container2 .col {
+    display: flex;
+    justify-content: center;
+    }
+}
